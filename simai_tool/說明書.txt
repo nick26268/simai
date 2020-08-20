@@ -1,0 +1,41 @@
+前置作業:
+1.將simai_tool放置在桌面
+2.安裝python3
+3.安裝python擴充軟件
+  -> 至終端機執行 
+  -> cd Desktop/simai_tool/
+  -> python3 get-pip.py
+  -> pip install pillow
+
+
+使用方法:
+windows電腦:直接點擊simai_tool裡面要使用的功能
+mac電腦:
+1.將simai_tool放置在桌面
+2.開啟終端機
+3.輸入:cd Desktop/simai_tool/
+3.輸入:python3 + 要使用的工具 (ex:python3 pic_resize.py)
+
+＃pic_resize.py 
+----------------
+功能:圖片自動更改為600x600 (建議圖片原本的size就接近正方形)
+備註:圖片要放在simai_tool的資料夾裡
+
+
+＃maidata_LR.py
+----------------
+功能:將input.txt檔案裡面的譜面左右反後產生output.txt檔案在資料夾裡
+備註:不能有譜面以外的東西
+
+
+#maidata_UD.py
+功能:將input.txt檔案裡面的譜面上下反後產生output.txt檔案在資料夾裡
+備註:不能有譜面以外的東西
+
+
+
+
+
+
+
+
